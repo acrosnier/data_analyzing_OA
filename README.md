@@ -6,7 +6,18 @@ General explanations
 - The results (crop mass, livestock and land use for 2050 scenarios) are summarized in Modelling_data/Environmental impacts/calculs_impacts_scenarios.xlsx
 - Environmental impact computations and graphs with impact_assessment.ipynb
 
-IMPORTANT INFO : For the code to run, all files must be put in a folder called ‘PDM’ on the Desktop, so that the path to access the files starts with ‘Desktop/PDM/Modelling_data/…’ + Change your user name accordingly at the beginning of the code
+IMPORTANT INFO : 
+
+- For the code to run, all files must be put in a folder called ‘PDM’ on the Desktop, so that the path to access the files starts with ‘Desktop/PDM/Modelling_data/…’
+- Change your user name accordingly at the beginning of the code
+- Unzip the zip file Modelling_data/FOFA2050CountryData_Crop-production.csv.zip
+
+Scenario equivalence
+
+- BAUlancet ⇒ ConvEAT in paper
+- OAlancet ⇒ OrgEAT in paper
+- BAUswiss ⇒ ConvSFP in paper
+- OAswiss ⇒ OrgSFP in paper
 
 data_processing.ipynb
 
@@ -24,10 +35,3 @@ Folder “Modelling_data”
 Folder “Excel models”
 
 - contains the Excel model for the scenarios, mainly a fork to farm approach to compute the crop mass, livestock and land use necessary given a diet, considering food waste, losses, feed, self-sufficiency ratio, yields …
-
-Scenario equivalence
-
-- BAUlancet ⇒ ConvEAT in paper
-- OAlancet ⇒ OrgEAT in paper
-- BAUswiss ⇒ ConvSFP in paper
-- OAswiss ⇒ OrgSFP in paper
